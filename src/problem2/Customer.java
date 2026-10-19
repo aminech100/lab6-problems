@@ -23,5 +23,8 @@ public class Customer {
         transactions.add(amount);
     }
 
-
+    @Override
+    public String toString() {
+        return "Customer: " + name + ", Transactions: " + transactions;
+    }
 }
