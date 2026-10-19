@@ -36,7 +36,7 @@ public class Shop
                 total += (cart.get(i).getPrice() * cart.get(i).getQuantity());
             }
             sb.append("Total: $" + total);
-            sb.append("\n------------------------");
+            sb.append("\n--------------------------");
             System.out.println(sb);
 
 
